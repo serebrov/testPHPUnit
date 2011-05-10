@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "-----------No isolation, test is OK----------"
+phpunit ./unit/phpunitTestDefine.php
+
+echo ""
+echo "-----------Isolation, test fails-------------"
+phpunit --process-isolation ./unit/phpunitTestDefine.php

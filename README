@@ -1,0 +1,13 @@
+incompleteClassException - case for issue https://github.com/sebastianbergmann/phpunit/issues/74
+
+This issue is reproduced only when tests are runned with --process-isolation
+
+cd incompleteClassException
+./phpunit
+
+defineNotice - case for define notice
+
+This issue is also reproduced only when tests are runned with --process-isolation
+
+cd defineNotice
+./phpunit
